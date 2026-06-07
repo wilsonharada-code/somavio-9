@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>SomaVio | My Trip</title>
+  <meta name="description" content="SomaVio premium regional stay layer for Canmore and Bow Valley."/>
+  <link rel="stylesheet" href="assets/css/style.css?v=7.2"/>
+  <script src="assets/js/app.js?v=7.2" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html" aria-label="SomaVio">
+      <span class="brand-mark" aria-hidden="true"></span><span>SomaVio</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation"><a href="index.html" data-i18n="navExplore">Explore Today</a>
+<a href="trip.html" data-i18n="navTrip" aria-current="page">Plan Your Trip / My Trip</a>
+<a href="safety.html" data-i18n="navSafety">Safety & Official Updates</a>
+<a href="offers.html" data-i18n="navOffers">Offers</a>
+<a href="hotels.html" data-i18n="navHotels">For Hotels</a>
+    <a href="hotel.html" data-i18n="navStay">Hotel Guest Hub</a>
+<a href="insights.html" data-i18n="navInsights">Local Insights</a>
+<a href="partners.html" data-i18n="navPartner">Partner Hub</a>
+<a href="studio.html" data-i18n="navStudio" class="nav-discreet">Partner Studio</a></nav>
+    <div class="region-pill">⌖ <span data-i18n="region">Canmore / Bow Valley</span></div>
+    <div class="lang" aria-label="Language selector">
+      <button type="button" data-lang="en">🇬🇧 EN</button>
+      <button type="button" data-lang="fr">🇫🇷 FR</button>
+      <button type="button" data-lang="ja">🇯🇵 JA</button>
+      <button type="button" data-lang="ko">🇰🇷 KO</button>
+      <button type="button" data-lang="pt">🇧🇷 PT-BR</button>
+    </div>
+    <button class="mobile-menu" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<div class="mobile-nav-panel" data-mobile-nav hidden>
+  <nav class="mobile-nav-list" aria-label="Mobile navigation">
+    <a href="index.html" data-i18n="navExplore">Explore Today</a>
+    <a href="trip.html" data-i18n="navTrip">Plan Your Trip / My Trip</a>
+    <a href="safety.html" data-i18n="navSafety">Safety & Official Updates</a>
+    <a href="offers.html" data-i18n="navOffers">Offers</a>
+    <a href="hotels.html" data-i18n="navHotels">For Hotels</a>
+    <a href="hotel.html" data-i18n="navStay">Hotel Guest Hub</a>
+    <a href="insights.html" data-i18n="navInsights">Local Insights</a>
+    <a href="partners.html" data-i18n="navPartner">Partner Hub</a>
+    <a href="studio.html" class="mobile-nav-discreet" data-i18n="navStudio">Partner Studio</a>
+  </nav>
+  <div class="mobile-nav-language" aria-label="Mobile language selector">
+    <button type="button" data-lang="en">🇬🇧 EN</button>
+    <button type="button" data-lang="fr">🇫🇷 FR</button>
+    <button type="button" data-lang="ja">🇯🇵 JA</button>
+    <button type="button" data-lang="ko">🇰🇷 KO</button>
+    <button type="button" data-lang="pt">🇧🇷 PT-BR</button>
+  </div>
+</div>
+<div class="mobile-nav-backdrop" data-mobile-nav-backdrop hidden></div>
+
+
+<main id="main">
+<section class="page-hero"><div class="container"><h1 data-i18n="myTrip">My Trip / Offline Planner</h1><p data-i18n="myTripCopy">Save ideas, build your day, and access it anytime—even without service.</p></div></section>
+<section class="section"><div class="container content-grid">
+  <section class="panel trip-board">
+  <h2 data-i18n="savedIdeas">Saved ideas</h2>
+  <p data-i18n="savedEmptyHint">Ideas you save from local pages will stay on this device for later.</p>
+  <div data-saved-list></div>
+</section>
+  <section class="panel trip-board trip-board-primary">
+  <h2 data-i18n="todayPlan">Today’s plan</h2>
+  <p data-i18n="planEmptyHint">Add cafés, routes, offers or Plan B ideas to build a simple day plan.</p>
+  <div data-plan-list></div>
+  <div class="action-bar">
+    <button class="btn btn-primary" data-download-plan data-i18n="downloadPlan">Download offline plan</button>
+    <button class="btn btn-secondary" data-share-plan data-i18n="sharePlan">Share today’s plan</button>
+  </div>
+  <p class="share-output" data-share-output></p>
+  <p class="trust-note">Always check official sources before you go.</p>
+</section>
+</div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <a class="brand" href="index.html"><span class="brand-mark"></span><span>SomaVio</span></a>
+    <div class="footer-links">
+      <a href="index.html" data-i18n="navExplore">Explore Today</a>
+      <a href="trip.html" data-i18n="navTrip">Plan Your Trip</a>
+      <a href="insights.html" data-i18n="navInsights">Local Insights</a>
+      <a href="hotel.html" data-i18n="navStay">Stay Layer</a>
+      <a href="partners.html" data-i18n="navPartner">Partner Hub</a>
+      <a href="studio.html" class="partner-studio-link" data-i18n="navStudio">Partner Studio</a>
+      <a href="hotels.html" class="hotel-b2b-footer-link" data-i18n="navHotels">For Hotels</a>
+    </div>
+    <div><small data-i18n="footerCopy">Canmore / Bow Valley’s regional stay layer.</small><br><small>Privacy · Terms · Contact</small></div>
+  </div>
+
+    <div class="footer-language-selector" aria-label="Footer language selector">
+      <span>Language</span>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="fr">FR</button>
+      <button type="button" data-lang="ja">JA</button>
+      <button type="button" data-lang="ko">KO</button>
+      <button type="button" data-lang="pt">PT-BR</button>
+    </div>
+</footer>
+<div class="toast" data-toast><span>✓</span><div><strong data-toast-title>Added</strong><small data-toast-text></small></div><button type="button" data-toast-close>×</button></div>
+
+</body>
+</html>
